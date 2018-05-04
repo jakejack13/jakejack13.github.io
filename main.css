@@ -1,1 +1,5 @@
 #CSS File linked to index.html
+p {
+  color: red;
+  font-size: 25px;
+}
