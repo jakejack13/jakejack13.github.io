@@ -6,8 +6,30 @@ body {
 
 p {
 	color:red;
+	display: inline;
 }
 
 h1 {
 	color:red;
+	text-align:center;
+}
+
+ul {
+	list-style:none;
+}
+
+li {
+	display:inline;
+}
+
+a {
+	text-decoration:none;
+}
+
+.nav_bar {
+	text-align:center;
+}
+
+img {
+	display:inline-block;
 }
