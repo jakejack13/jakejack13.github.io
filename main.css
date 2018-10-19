@@ -1,5 +1,13 @@
-#CSS File linked to index.html
+body {
+	background-image: url("background.jpg");
+	font-family: arial;
+	background-repeat: repeat;
+}
+
 p {
-  color: red;
-  font-size: 25px;
+	color:red;
+}
+
+h1 {
+	color:red;
 }
