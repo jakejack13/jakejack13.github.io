@@ -25,6 +25,11 @@ li {
 
 a {
 	text-decoration:none;
+	color:blue;
+}
+
+a:after {
+	color:blue;
 }
 
 .nav_bar {
@@ -33,6 +38,6 @@ a {
 }
 
 img {
-	display:inline-block;
+	display:display: inline;
 	border-radius: 50px;
 }
