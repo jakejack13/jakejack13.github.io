@@ -1,8 +1,10 @@
 body {
-	/*background-image: url("../assets/background.jpg");*/
-	background-color: #0a3052;
+	background-image: url("../assets/background.jpg");
+	/*background-color: #0a3052;
+    background-color: #333633;*/
+    background-color: black;
 	font-family: arial;
-	background-repeat: repeat;
+	background-repeat: no-repeat;
 }
 
 p {
@@ -14,7 +16,7 @@ h1 {
 	color:#ff6d6d;
 	text-align:center;
 	font-size:45px;
-	right:50%;
+	width: center;
 }
 
 ul {
@@ -37,9 +39,17 @@ a:after {
 }
 
 .nav_bar {
-	text-align:center;
-	font-size: 30px;
-	width: 90%;
+	text-align: center;
+	font-size: 35px;
+	width: 100%;
+    
+}
+
+#name {
+	text-align: center;
+	font-size: 40px;
+	width: 100%;
+    
 }
 
 img {

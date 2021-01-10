@@ -1,5 +1,5 @@
 body {
-	/*background-image: url("../assets/background.jpg");*/
+	/*background-image: url("../../assets/background.jpg");*/
 	background-color: #5577a0;
 	font-family: arial;
 	background-repeat: repeat;
@@ -28,7 +28,10 @@ li {
 }
 
 a {
-	text-decoration:none;
+ text-decoration:none;   
+}
+
+.nav_bar a {
 	color:#f96b6b;
 }
 
@@ -38,8 +41,14 @@ a:after {
 
 .nav_bar {
 	text-align:center;
-	font-size: 30px;
-	width: 90%;
+	font-size: 35px;
+	width: 100%;
+}
+
+#name {
+	text-align:center;
+	font-size: 40px;
+	width: 100%;
 }
 
 img {
@@ -60,6 +69,7 @@ img {
 */
 #text {
 	width: 70%;
+    color:#ffaaaa;
 }
 
 .column {
@@ -74,7 +84,6 @@ img {
   clear: both;
 }
 
-#text h1 {
-	font-size:40px;
-	color: white;
+#text-link {
+    color: blue;
 }
